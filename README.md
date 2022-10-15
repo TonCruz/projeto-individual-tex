@@ -1,1 +1,1 @@
-# Projeto desenvolvido para o Curso FullStack JavaScript da T.TEX Experts
+# Projeto desenvolvido para o Curso FullStack JavaScript da T.EX Experts
