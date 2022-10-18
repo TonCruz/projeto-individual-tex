@@ -1,0 +1,748 @@
+/* Import da Fonte */
+@import url('https://fonts.googleapis.com/css2?family=Quando');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+/* Componentes Globais */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Quando';
+}
+html {
+    background-color: white;
+    background-attachment: fixed;
+
+}
+body {
+    width: 80%;
+    margin: auto;
+    color: black;
+    overflow: auto;
+    padding: 0em;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+
+}
+header{
+    background-color: #000000;
+    position: fixed;
+
+    
+}
+
+li{
+    list-style: none;
+}
+
+main{
+    padding: 30vh 10em 10em 10em;
+    min-height: 100vh;
+
+
+}
+h2{
+  color: rgb(0, 0, 0);
+    font-size: 25px;
+    padding: 20px 0;  
+}
+h3{
+    padding: 30px 0;
+}
+p {
+    color: rgb(0, 0, 0);
+    padding-bottom: 1em;
+    font-size: 20px;
+}
+input {
+    height: 4vh;
+    width: 80%;
+}
+
+
+/* Classes globais */
+.sloganSobre{
+    position: relative;
+    font-size: larger;
+    padding: 4.5rem ;
+    float: right;
+    color: #fff;
+}
+
+.navBar{
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 34px;
+}
+.logoSobre{
+    width: 21em;
+    padding: 10px;
+    font-size: 50%; 
+}
+.navMenu{
+    font-family:  Quicksand;
+    font-size: x-large;
+    display: flex;
+    color: #999;
+    align-items: center;
+    gap: 70px;
+}
+.navLink{
+    transition: 0.5s ease;
+}
+
+.hamburguer{
+    display: none;
+    cursor: pointer;
+}
+.bar{
+    display: block;
+    width: 28px;
+    height: 3px;
+    border-radius: 2px;
+    margin: 5px auto;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+/* -------------------------------------------------- */
+/* COMPONENTES GLOBAIS (HEADER, FOOTER E NAVBAR*/
+/*Competência: Felipe, Diego, David e Andrey*/
+/* Componentes Globais */
+
+.menu {
+    float: left;
+    height: 100%;
+    margin: none;
+    width: 80%;
+    background: #000000;
+    position: fixed;
+}
+.menu li:hover {
+    background:#8d8d8d;
+}
+.menu ul {
+    text-align: center;
+    float: left;
+    margin: none;
+    list-style:none;
+    list-style-type: none;
+    background:#000000;
+    padding: 0px;
+    margin:0px;
+}
+.menu li {
+    display: inline-block;
+    padding: none;
+    margin: none;
+    height:47px;
+    display:table-cell;
+    text-align:center;
+    vertical-align:middle;
+    width:150px;
+}
+.menu a {
+    color: #ffffff;
+    text-decoration: none;
+}   
+.menu li a, .menu li span {
+    display: inline-block;
+    padding: 0em 1.5vw;
+    text-decoration: none;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+.menu-superior {
+    width: 100%;
+    height: 100%;
+}
+.menu-inferior {
+    width: 100%;
+    height: 100%;
+}
+.hb {
+    display: none;
+}     
+.slogan {
+    font-family: quicksand;
+    font-size: 1.5rem;
+    color: #ff0000;
+    position: absolute;
+    top: 2.5em; 
+    left: 30vw;
+    width: 400%;
+}
+
+
+
+.header-main {
+    background-color:#000000; 
+    position: fixed; 
+    width: 100%;
+}
+
+
+.header-background {
+    background-color: #000000;
+    position: fixed;
+}
+
+
+/* FOOTER */
+.footer-padrao {
+    width: 80%;
+    margin: auto;
+    height: 100%;
+}
+.footerInput {
+    width: 90%;
+    padding: 2%;
+    font-size: 1.2rem;
+    border-radius: 12px;
+    border: none;
+    /*box-shadow: 1px 1px 2px #Cf9903, -1px -1px 2px #Cf9903;*/
+}
+.footerFieldset {
+    border: 1px dashed #517490;
+    text-align: left;
+    margin: 1em;
+    padding: 0.5em 5px;
+}
+.footerFieldset div li {
+    width: 90%;
+    padding: 2%;
+    font-size: 1rem;
+    border-radius: 12px;
+    border: none;
+
+}
+.footerColor {
+    background-color: #213242;
+    padding: 5px;
+}
+.footer-p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 1rem;
+}
+.footerText {
+    font-size: 1rem;
+    color: #fff;
+}
+.footerBtn {
+    padding: 1rem 1.5rem;
+    border: none;
+    border-radius: 12px;
+    background-color: #517490;
+    color: #FCF7EA;
+    margin: 2vh 0 0 0;
+}
+.footerBtn:hover {
+    background-color: #ff0000;
+    color: #ffffff;
+    cursor: pointer;
+}
+.footerImg {
+    width: 21em;
+    padding: 10px;
+    font-size: 50%; 
+}
+.footer-4spc {
+    padding-left: 3vw;
+}
+
+i {
+    color: white;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+i:hover {
+    color: red;
+}
+
+
+/* -------------------------------------------------- */
+/* LOGIN */
+/*Competência: Andrey e Wellington*/
+/* Classes Específicas- Login */
+.articleLogin {
+    margin: 5vh auto 0 auto;
+}
+.mg-form {
+    margin: 2vh 0 0 0;
+}
+.pd-form {
+    padding: 2vh 0 0 0;
+}
+.fieldLogin {
+    width: 80%;
+    margin: 0 auto;
+}
+.fieldsetLogin {
+    border:1px solid #213242;
+    padding: 0 5vw 5vw 5vw;
+}
+.btn {
+    padding: 1rem 1.5rem;
+    border: none;
+    border-radius: 12px;
+    background-color: #213242;
+    color: #FCF7EA;
+}
+.btn:hover {
+    background-color: #FCF7EA;
+    color: #213242;
+    cursor: pointer;
+}
+.btnLogin {
+    margin: 5vh 0 0 0;
+}
+.colorPrimary {
+    color: #213242;
+}
+
+/* -------------------------------------------------- */
+/* HOME */
+/* Competência: Felipe, Diego e David*/
+/* Classes Específicas- Home */
+
+.home-texto-longo {
+    font-family: Quicksand;
+    font-size: 1vw;
+    color: #000;
+    width: 100%;
+}
+.home-acomodacoes-painel {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 5%;
+    font-size: 0;
+    line-height: 0;
+    word-spacing: 0;
+    border: 0;
+    align-self: center;
+    align-items: center;
+}
+.home-acomodacoes {
+    margin: 0;
+    border-radius: 0;
+    border: 0;
+}
+.home-imagem-link {
+    padding-left: 20em;
+}
+.home-imagem-link img {
+    width: 25vw;
+    height: 18.05vw;
+}
+.home-nossos-servicos {
+    border: #000 1px;
+}
+.home-sobre {
+    width: 100%;
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.home-sobre-img {
+    width: 100%;
+}
+.home-fit-img {
+    width: 95%;
+    border-radius: 2%;
+}
+.home-sobre-txt {
+    width: 100%;
+}
+.home-large-img {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homeNewsletter {
+    padding: 2em 0;
+}
+.input-newsletter {
+    width: 50%;
+}
+.button-newsletter {
+    width: 30%;
+}
+
+main {
+    padding: 1% !important;
+    margin: 1% !important;
+}
+
+
+/* -------------------------------------------------- */
+/* MEDIA RESPONSIVA*/
+/*Competência: Felipe, David e Andrey */
+
+@media(max-width:916px) {
+    .main-right {
+        display: none;
+    }
+    .main-left {
+        width: 100%;
+        padding-left: 0;
+        height: unset;
+        margin-top: 50px;
+    }
+    .wraper {
+        margin: 0 auto;
+        max-width: 443px;
+    }
+    .slogan {
+        left: 25vw;
+    }
+    .home-sobre {
+        grid-template-columns: 100%;
+    }
+    .home-sobre-img {
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        margin: 2em auto;
+    }
+    .home-fit-img {
+        margin: auto;
+    }
+    .home-sobre-txt {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .home-texto-longo {
+        font-size: 2vw;        
+    }
+    .footer-p {
+        font-size: 2vw;
+    }
+    .footer-voltaTopo {
+        font-size: 2vw;
+    }
+    ::placeholder {
+    font-size: 1.4vw;
+}
+
+    /* RESPONSIVIDADE RESERVAS */
+    .inputBox{
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .inputBox input{
+        width: 50%;
+        min-width: 300px;
+    }
+
+    .bookingSummaryContainer{
+        text-align: center;
+        margin: 2em 0;
+        width: 100%;
+    }
+
+    .roomChoiceSection {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .roomDiv div{
+        margin: 0 1em;
+        padding: 0;
+    }
+
+    .roomChoice .roomDiv p {
+        width: 100%;
+        margin-top: 0.5em;
+        font-size: 0.8em;
+        text-align: justify;
+        padding-right: 3em;
+    }
+
+    .bookingSummaryContainer{
+        justify-content: left;
+        border: none;
+        margin: 0 1em 0 0.5em;
+        height: 100%;
+        max-height: none;
+        min-width: none;
+    }
+
+    .bookingSummary{
+        padding: 0 2em;
+        border: 1px solid black
+    }
+
+    .bookingSummaryContainer{
+        margin-top: 1em;
+        justify-content: center;
+    }
+}
+
+@media (max-width:768px){
+
+    .navMenu{
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        border-radius: 0 0 20px 20px;
+        background-color: #213242;
+        flex-direction: column;
+        width: 100%;
+        transition: 0.3s;
+    }
+    .logo {
+        position: absolute;
+        top: 1.5em;
+        width: 110px;
+    }
+    .slogan {
+        top:5em;
+        left: 20vw;
+        font-size: medium;
+    }
+    .navItem{
+        margin: 16px 8;
+    }
+    .navMenu.active{
+        left: 0;
+    }
+    .btn {
+        padding: 0.5rem 1rem;
+    }
+    .pd-form {
+        padding: 0.5vh 0;
+    }
+    .footertd01 {
+        width: 40%;
+    }
+    .footertd02 {
+        width: 60%;
+    }
+    .footer-p {
+        font-size: 2.5vw;
+    }
+    .footer-voltaTopo {
+        font-size: 2.5vw;
+    }
+    ::placeholder {
+    font-size: 1.5vw;
+}
+    /* RESPONSIVIDADE RESERVAS */
+
+    .inputBox{
+        align-items: center;
+    }
+
+    .myReservation p:nth-of-type(1), .myReservation p:nth-of-type(2){
+        text-align: center;
+    }
+
+    .roomChoice{
+        justify-items: center;
+    }
+
+    .roomChoice>.roomDiv{
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+    }
+
+    .roomDiv{
+        width: 100%;
+    }
+    .roomDiv h3{
+        margin: 0.5em 0;
+    }
+
+    .roomDiv div{
+        text-align: center;
+        margin: 0;
+        margin-bottom: 0.5em;
+        padding: 1em;
+    }
+
+    .roomChoice .roomDiv .price{
+        text-align: center;
+    }
+
+    .roomChoice .roomDiv p{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .radioContainer{
+        border-bottom: 1px solid black;
+    }
+
+    .bookingSummaryContainer{
+        margin: 0;
+        margin-top: 1em;
+        justify-content: center;
+        width: 100%;
+        min-width: 100px;
+    }
+
+}
+
+@media(max-width:650px) {
+    .main {
+        border: 0;
+        background-color: unset;
+    }
+    .slogan {
+        top:4em;
+        left: 30vw;
+        width: 270px;
+    }
+    .olaUsuario {
+        right: 12.7em;
+    }
+    .menu li a {
+        padding: 0em 1.0vw;
+        font-size: 2.6vw;
+    }
+    .home-acomodacoes-painel {
+        display: list-item;
+    }
+    .home-acomodacoes {
+        padding-bottom: 5%;
+    }
+    .home-imagem-link img {
+        width: 100%;
+        height: 100%;
+    }
+    .home-fit-img {
+        width: 100%;
+    }
+    .homeNewsletter label {
+        font-size: 3vw;
+    }
+    .input-newsletter {
+        width: 60%;
+    }
+    .button-newsletter {
+        width: 45%;
+    }
+    .footertd01 {
+        width: 25%;
+    }
+    .footertd02 {
+        width: 75%;
+    }
+    .footerText {
+        font-size: 2vw;
+    }
+    .menu-inferior ul {
+        display: none;
+        height: 0;
+    }
+}
+
+/* Smartphones - Retrato */
+@media (max-width: 415px) {
+    .slogan {
+        display: none;
+    }
+    .header-cadastro {
+        display: none;
+    }
+    .olaUsuario {
+        right: 6vw;
+    }
+    .header-sair {
+        top: 4em;
+    }
+    .menu ul {
+        display: none;
+    }
+    .hb {
+        display: inline-block;
+        position: fixed;
+    }
+    .menu-hb-icon {
+        position: absolute;
+        top: 1em;
+        left: 3vw;
+        color: #E1C888;
+        cursor: pointer;
+    }
+    .input-newsletter {
+        width: 80%;
+    }
+    .button-newsletter {
+        width: 60%;
+    }
+    .footerText {
+        font-size: 2.5vw;
+    }
+    .footerBtn {
+        padding: 0.5rem 1rem;
+    }
+    ::placeholder {
+        font-size: 0;
+    }
+
+}
+
+
+/*********************************************************************************************************************************************************/
+
+
+
+section .card-wrapper{
+    max-width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    grid-gap: 30px;
+    padding-top: 50px;
+    justify-items: center;
+}
+
+section .card-item{
+    height: 400px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card-content{
+    height: 40%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card-item img{
+    width: 100%;
+}
+
+.card-item h4{
+    width: 90%;
+}
+
+.card-item p{
+    width: 90%;
+    font-style: italic;
+    color: #00000070;
+}
